@@ -25,20 +25,20 @@ install() {
 }
 
 function print_logo() {
-	green "          __    __"
-	green "         |  |_/  /   _      ___ ____   __  __"
-	green "         |   _  \  |_ _|  | .__|  _ \_|  \/  |"
-	green "         |__| \__\        |____|\_____|_/\/\_|"
+	green "          _    __"
+	green "         | |__/ /    _     _  _ ____   __  __"
+	green "         |  __  \  |_ _|  | \|_|  _ \_|  \/  |"
+	green "         |_|   \_\        |_\|_|\_____|_/\/\_|"
 	echo -e "\n\e[0m"
 }
 
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]=" __    __"
-    txtlogo[2]="|  |_/  /   _      ___ ____   __  __"
-    txtlogo[3]="|   _  \  |_ _|  | .__|  _ \_|  \/  |"
-    txtlogo[4]="|__| \__\        |____|\_____|_/\/\_|"
+    txtlogo[1]=" _    __"
+    txtlogo[2]="| |__/ /    _     _  _ ____   __  __"
+    txtlogo[3]="|  __  \  |_ _|  | \|_|  _ \_|  \/  |"
+    txtlogo[4]="|_|   \_\        |_\|_|\_____|_/\/\_|"
     printf "\e[31m\t"
     for i in ${!txtlogo[@]}; do
         for x in `seq 0 ${#txtlogo[$i]}`; do
@@ -51,14 +51,14 @@ function logo_play() {
 	echo -e "\e[0m"
 }
 
-function beyondteam() {
+function kenamch() {
 	echo -e "\e[0m"
 	green "     >>>>                       We Are Not Attacker                             "
 	green "     >>>>                       We Are Not Alliance                             "
 	white "     >>>>                       We Are Programmer                               "
 	white "     >>>>                       We Are The Best                                 "
 	red   "     >>>>                       We Are Family                                   "
-	red   "     >>>>                       @kenamch                                      "
+	red   "     >>>>                       [@kenamch _ @saad7m]                            "
 	echo -e "\e[0m"
 }
 

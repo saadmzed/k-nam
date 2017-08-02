@@ -146,6 +146,6 @@ mt ={ __index = {
 	getTag = function(self)
 		return self.lom.tag
 	end
-}}
+}}}
 
 return XMLElement

@@ -39,7 +39,7 @@ if not ok then
       fake_func(b)
     end
     return fake[b] or fake_func
-  end })]
+  end })
 
 end
 

@@ -363,7 +363,7 @@ end
 --for the sake of backwards-compatibility, feedparser will export a global reference for lua < 5.3
 if _VERSION:sub(-3) < "5.3" then
 	_G.feedparser=feedparser
-end]
+end
 
 
 return feedparser

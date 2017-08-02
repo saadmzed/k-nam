@@ -92,7 +92,7 @@ function mimetype.get_content_type_no_sub(extension)
   for k,v in pairs(types) do
     if v == extension then
       -- Before /
-      return k:match('([%w-]+)/')
+      return k:match('([%w-]+)/')]
     end
   end
 end

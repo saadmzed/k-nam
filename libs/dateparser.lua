@@ -182,7 +182,7 @@ do
 			isdst  = false
 		} 
 		return unix_timestamp(d, offset_hours * 3600) 
-	end)
+	end)]
 end
 
 dateparser.register_format('RFC822', formats.RFC2822) --2822 supercedes 822, but is not a strict superset. For our intents and purposes though, it's perfectly good enough

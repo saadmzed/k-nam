@@ -1,5 +1,5 @@
--- #Beyond Reborn Robot
--- #@BeyondTeam
+-- #@saad7m
+-- #@kenamch
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -90,28 +90,27 @@ function create_config( )
 		"fun",
 
 	},
-    sudo_users = {111334847, 157059515, sudo_id},
+    sudo_users = {30742221, sudo_id},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Beyond Reborn v6.0
+    info_text = [[》kenam-bot v6.0
 An advanced administration bot based on https://valtman.name/telegram-cli
 
-》https://github.com/BeyondTeam/BDReborn 
+》https://github.com/saadmzed/k-nam
 
 》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer《
-》@ToOfan ➣ Developer《
+》@saad7m ➣ Founder & Developer《
+》@T_ZAP ➣ Developer《
 
 》Special thanks to :
 》Beyond Team Members
 
 》Our channel :
-》@BeyondTeam《
+》@kenamch《
 
-》Our website :
-》http://Beyond-Dev.iR
+》Our channal2 :
+》@kenam_ch《
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
@@ -153,7 +152,7 @@ function load_plugins()
 			print('\27[31m'..err..'\27[39m')
 		end
 	end
-	print('\n'..#config.enabled_plugins..' Plugins Are Active\n\nStarting BDReborn Robot...\n')
+	print('\n'..#config.enabled_plugins..' Plugins Are Active\n\nStarting KENAM Robot...\n')
 end
 
 load_plugins()
@@ -401,4 +400,3 @@ function tdcli_update_callback (data)
 		tdcli_function ({ID="GetChats", offset_order_="9223372036854775807", offset_chat_id_=0, limit_=20}, dl_cb, nil)    
 	end
 end
-

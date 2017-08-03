@@ -48,12 +48,14 @@ cd $HOME && git clone https://github.com/saadmzed/k-nam.git && cd k-nam && chmod
 
 # Support and Development
 
-More information [k-nam Global Chat](https://telegram.me/joinchat/AAAAAEIDQ8HTjezV4syUSA)
+More information [k-nam Global Chat](https://telegram.me/joinchat/AAAAAD25mIzUH_IQvF8HsQ)
 
 # Special thanks to
 [@MrHalix](https://github.com/MrHalix)
 
 [@Vysheng](https://github.com/vysheng)
+
+[@BeyondTeam](https://t.me/BeyondTeam)
 
 * * *
 

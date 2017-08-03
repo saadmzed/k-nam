@@ -25,20 +25,20 @@ install() {
 }
 
 function print_logo() {
-	green "          _    __"
-	green "         | |__/ /    _     _  _ ____   __  __"
-	green "         |  __  \  |_ _|  | \|_|  _ \_|  \/  |"
-	green "         |_|   \_\        |_\|_|\_____|_/\/\_|"
+	green "          _   __"
+	green "         | |_/ /  _   _  _ ____   __  __"
+	green "         |  __ \|_ _|| \|_|  _ \_|  \/  |"
+	green "         |_|  \_\    |_\|_|\_____|_/\/\_|"
 	echo -e "\n\e[0m"
 }
 
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]=" _    __"
-    txtlogo[2]="| |__/ /    _     _  _ ____   __  __"
-    txtlogo[3]="|  __  \  |_ _|  | \|_|  _ \_|  \/  |"
-    txtlogo[4]="|_|   \_\        |_\|_|\_____|_/\/\_|"
+    txtlogo[1]=" _   __"
+    txtlogo[2]="| |_/ /  _   _  _ ____   __  __"
+    txtlogo[3]="|  __ \|_ _|| \|_|  _ \_|  \/  |"
+    txtlogo[4]="|_|  \_\    |_\|_|\_____|_/\/\_|"
     printf "\e[31m\t"
     for i in ${!txtlogo[@]}; do
         for x in `seq 0 ${#txtlogo[$i]}`; do

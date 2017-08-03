@@ -4,29 +4,29 @@ local function run(msg, matches)
 if matches[1]=="احبك" and is_sudo(msg) then 
 return  "وآنـي ۿـم احبـك مطـوري ¦ 😻🍃ء"
 elseif matches[1]=="هلو" then 
-return  "هٰ۪۫لٰ۪۫وٰ۪۫ﺄﺈتٰ۪۫ حٰ۪۫يٰ۪۫ﺄﺈتٰ۪۫يٰ۪۫ 🌸💖"..msg.from.first_name
+return  "هٰ۪۫لٰ۪۫وٰ۪۫ﺄﺈتٰ۪۫ حٰ۪۫يٰ۪۫ﺄﺈتٰ۪۫يٰ۪۫ 🌸💖"
 elseif matches[1]=="السلام عليكم" then 
 return  "وٰٖعٰٖلٰٖيٰٖكٰٖمٰٖ ألٰٖسٰٖلٰٖأمٰٖ أهٰٖلٰٖأ😻🌸"
 elseif matches[1]=="الحمدلله" or matches[1]== "الحمد لله" then 
 return  " عہٰ۪۫سہٰ۪۫آهہٰ۪۫آ ډۄمہٰ۪۫ مہٰ۪۫ۄ يہٰ۪۫ۄمہٰ۪۫┋ 💜'ء "
 elseif matches[1]=="مرحبا" then 
-return  " مہٰ۪۫ږآحہٰ۪۫بہٰ۪۫ آهہٰ۪۫لہٰ۪۫آ ۄسہٰ۪۫هہٰ۪۫لہٰ۪۫آ┋ 💖😻'ء "..msg.from.first_name
+return  " مہٰ۪۫ږآحہٰ۪۫بہٰ۪۫ آهہٰ۪۫لہٰ۪۫آ ۄسہٰ۪۫هہٰ۪۫لہٰ۪۫آ┋ 💖😻'ء "
 elseif matches[1]=="هاي" then 
-return  " هہۣۧﭑيہۣۧﭑتہۣۧ ﭑهہۣۧلہۣۧﭑ ۇسہۣۧهہۣۧلہۣۧﭑ┋🌸😻'ء "..msg.from.first_name
+return  " هہۣۧﭑيہۣۧﭑتہۣۧ ﭑهہۣۧلہۣۧﭑ ۇسہۣۧهہۣۧلہۣۧﭑ┋🌸😻'ء "
 elseif matches[1]=="شلونكم" then 
 return  " تہۣۧمہۣۧﭑمہۣۧ يہۣۧڔٌۇحہۣۧيہۣۧ ۇﭑنہۣۧتہۣۧهہۣۧ┋💝'ء "
 elseif matches[1]=="بوت" then 
 return  " أسٰٖمٰٖيٰٖ كٰٖيٰٖنٰٖأمٰٖ🌚💖"
 elseif matches[1]=="هلاو" then 
-return  " هٰ۪۫لٰ۪۫وٰ۪۫ﺄﺈتٰ۪۫ حٰ۪۫يٰ۪۫ﺄﺈتٰ۪۫يٰ۪۫ 🌸💖 "..msg.from.first_name
+return  " هٰ۪۫لٰ۪۫وٰ۪۫ﺄﺈتٰ۪۫ حٰ۪۫يٰ۪۫ﺄﺈتٰ۪۫يٰ۪۫ 🌸💖 "
 elseif matches[1]=="صلو عالنبي" then 
 return  " إألہۣۖلہۣۖهہۣۖمہۣۖ صہۣۖلہۣۖ عہۣۖلہۣۖى مہۣۖحہۣۖمہۣۖدْ ۅإألہۣۖ مہۣۖحہۣۖمہۣۖدْ 🌸💖 "
 elseif matches[1]=="سلام" then 
 return  " ۇعہۣۧلہۣۧيہۣۧكہۣۧمہۣۧ ﭑلہۣۧسہۣۧلہۣۧﭑمہۣۧ ﭑغہۣۧﭑتہۣۧيہۣۧ┋💝✨ "
 elseif matches[1]=="جاو" then 
-return  " ﭑﻟﻟـﮧ'هہۣۧ ۇيہۣۧـﭑكہۣۧ حہۣۧيہۣۧـﭑتہۣۧيہۣۧ┋💛💭ء "..msg.from.first_name
+return  " ﭑﻟﻟـﮧ'هہۣۧ ۇيہۣۧـﭑكہۣۧ حہۣۧيہۣۧـﭑتہۣۧيہۣۧ┋💛💭ء "
 elseif matches[1]=="باي" then 
-return  " ﭑﻟﻟـﮧ'هہۣۧ ۇيہۣۧـﭑكہۣۧ حہۣۧيہۣۧـﭑتہۣۧيہۣۧ┋💛💭ء "..msg.from.first_name
+return  " ﭑﻟﻟـﮧ'هہۣۧ ۇيہۣۧـﭑكہۣۧ حہۣۧيہۣۧـﭑتہۣۧيہۣۧ┋💛💭ء "
 elseif matches[1]=="اكرهك" then 
 return  " ﭘــﺱ ﭑنہۣۧـﻲ ﭑحہۣۧبہۣۧـک┋😞💖ء "
 elseif matches[1]=="تكرهني" then 

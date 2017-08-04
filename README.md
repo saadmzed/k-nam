@@ -6,40 +6,40 @@
 * * *
 
 ## Commands
+## الاوامر
+| help | just send help in your group and get the commands |
 
-| Use help |
-|:--------|:------------|
-| [#!/]help | just send help in your group and get the commands |
+| help | ارسل امر مساعده لعرض الاوامر داخل المجموعه |
 
-**You can use "#", "!", or "/" to begin all commands
+**الاوامر تعمل بدون [!/#]
 
 * * *
 
 # Installation
-
+#لتنصيب السورس
 **If use K-Helper put your helper bot Username Without @ in bot.lua, line 22
 
 ```sh
-# Let's install the bot.
+# مع كل امر اضغط انتر.
 cd $HOME
 git clone https://github.com/saadmzed/k-nam.git
 cd k-nam
 chmod +x k-nam.sh
 ./k-nam.sh install
 ./k-nam.sh 
-# Enter a phone number & confirmation code.
+# ثم وضع ايدي المطور في الترمنال وبعدها رقم البوت.
 
-# For Auto Launch:
+# vps لتشغيل البوت على سرفر :
 cd k-nam
 chmod 777 auto-k.sh
 screen ./auto-k.sh
 ```
 ### One command
-To install everything in one command, use:
+لتنصيب البوت بكود واحد على سي 9 :
 ```sh
 cd $HOME && git clone https://github.com/saadmzed/k-nam.git && cd k-nam && chmod +x k-nam.sh && ./k-nam.sh install && ./k-nam.sh
 
-OR
+vps لتنصيب البوت بكود واحد على
 
 cd $HOME && git clone https://github.com/saadmzed/k-nam.git && cd k-nam && chmod +x k-nam.sh && ./k-nam.sh install && chmod 777 auto-k.sh && screen ./auto-k.sh
 ```
@@ -48,9 +48,10 @@ cd $HOME && git clone https://github.com/saadmzed/k-nam.git && cd k-nam && chmod
 
 # Support and Development
 
-More information [k-nam Global Chat](https://telegram.me/joinchat/AAAAAD25mIzUH_IQvF8HsQ)
+More information [k-nam Global Chat](https://telegram.me/joinchat/AAAAAD25mIzUH_IQvF8HsQ) كروب الدعم 
 
 # Special thanks to
+# شكر خاص الى مؤسسين السورس
 [@MrHalix](https://github.com/MrHalix)
 
 [@Vysheng](https://github.com/vysheng)
@@ -60,7 +61,7 @@ More information [k-nam Global Chat](https://telegram.me/joinchat/AAAAAD25mIzUH
 * * *
 
 # Developers!
-
+# مطورين السورس
 [saad](https://github.com/saadmzed) ([Telegram](https://telegram.me/saad7m))
 
 [T_ZAP](https://github.com/T-zap) ([Telegram](https://telegram.me/T_ZAP))

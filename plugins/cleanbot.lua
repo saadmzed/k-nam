@@ -1,7 +1,7 @@
---Start By @Tele_Sudo or @ThatsEnd
+--Start By @saad7m or @kenamch
 
 local function run(msg, matches)
-if matches[1] == 'cleanbot' or matches[1] == 'حذف البوتات' and is_owner(msg) then
+if matches[1] == 'clean bots' or matches[1] == 'حذف البوتات' and is_owner(msg) then
   function clbot(arg, data)
     for k, v in pairs(data.members_) do
       kick_user(v.user_id_, msg.to.id)
@@ -16,13 +16,13 @@ return {
 
 patterns ={ 
 
-'^[!/#](cleanbot)$',
+'^(clean bots)$',
 '^(حذف البوتات)$'
  
  },
   run = run
 }
  
- --End By @Tele_Sudo or @ThatsEnd
- -- Channel @LuaError
+ --End By @saad7m
+ -- Channel @kenamch
  --Please Not Clean This Text 

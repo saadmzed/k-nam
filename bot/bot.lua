@@ -19,7 +19,7 @@ local notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 chats = {}
 plugins = {}
-helper_username = 'ExampleHelperBot'  -- Input Helper Username Here Without @
+helper_username = 'ExampleHelperBot'  -- تضع معرف بوت الهلبر بدون آت @
 
 function do_notify (user, msg)
 	local n = notify.Notification.new(user, msg)
@@ -93,6 +93,7 @@ function create_config( )
 		"cleanbot",
 		"reply",
 		"warn",
+		"mute-time",
 
 	},
     sudo_users = {30742221, sudo_id},
